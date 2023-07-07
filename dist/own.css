@@ -583,3 +583,8 @@ body {
 }
 
 html { scroll-behavior: smooth;}
+
+@font-face {
+  font-family: "archia-font" !important;
+  src: url("/fonts/archia-regular-webfont.ttf") format("truetype") !important;
+}
