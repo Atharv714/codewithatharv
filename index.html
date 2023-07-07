@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <!-- font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="dist/3c8868941d99cec6.css" />
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="" />
+  <!-- <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet"> -->
+  <link rel="stylesheet" href="dist/output.css" />
+  <link rel="stylesheet" href="dist/own.css" />
+  <title>Code With Atharv</title>
+</head>
+
+<style>
+  @font-face {
+  font-family: archia-font;
+  src: url(/fonts/archia-regular-webfont.ttf);
+}
+</style>
+
+<body class="bg-white dark:bg-black" id="main">
+  <nav class="h-16 border-b border-slate-900/10" id="navbar">
+    <ul class="flex py-5 justify-center space-x-6 md:space-x-32" id="navbarul">
+      <a href="#" class="text-black undnav hover:text-[#ff0066] dark:text-white dark:hover:text-[#00ffff]">
+        <li>Home</li>
+      </a>
+
+      <a href="#getHere" class="text-black undnav hover:text-[#ff0066] dark:text-white dark:hover:text-[#00ffff]">
+        <li>Courses</li>
+      </a>
+
+      <a href="#" class="text-black undnav hover:text-[#ff0066] dark:text-white undnav dark:hover:text-[#00ffff]">
+        <li>Contact Us</li>
+      </a>
+
+      <a style="cursor: pointer" class="toggle-dark" href="#">
+        <li class="text-black undnav hover:text-[#ff0066] dark:text-white undnav dark:hover:text-[#00ffff]">
+          About Us
+        </li>
+      </a>
+    </ul>
+  </nav>
+
+  <!-- hero section control center -->
+  <!-- <section>
+    <div class="rounded-3xl container mx-auto flex px-5 py-[130px] lg:flex-row flex-col items-center"> -->
+  <!-- hero image control center -->
+  <!-- <div class="lg:max-w-lg lg:w-full w-5/6">
+        <img class="object-cover object-center rounded-xl" alt="hero" src="assets/gif-4mb.gif" />
+      </div>
+      <div
+        class="lg:flex-grow md:w-[720px] lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"> -->
+  <!-- heading control center -->
+  <!-- <h1 class="text-[45px] text-black dark:text-white" style="font-family: 'archia-font', monospace">
+          <span>Code with </span>
+          <span
+            class="font-bold bg-gradient-to-r from-[#0000ff] to-[#5500ff] text-transparent bg-clip-text animate-gradient dark:font-bold dark:bg-gradient-to-r dark:from-[#00ff80] dark:to-[#00ffee]">Atharv</span>
+        </h1> -->
+
+  <!-- paragraph control center -->
+  <!-- <p class="mt-6 lg:mt-4 mb-8 leading-relaxed text-slate-700 dark:text-gray-300" style="font-family: 'Quicksand'">
+          Confused on which course to take? I have got you covered. Browse
+          courses and find out the best course for you. Its free! Code With
+          Harry is my attempt to teach basics and those coding techniques to
+          people in short time which took me ages to learn. Took this
+          statement from Code with Harry
+        </p> -->
+
+  <!-- start learning button control center -->
+  <!-- <div class="flex">
+          <button type="button"
+            class="inline-flex items-center py-1 leading-6 text-sm shadow rounded-md bg-white dark:bg-[#141414] transition ease-in-out duration-150 ring-1 ring-slate-900/50 dark:ring-slate-100/30">
+            <a href="https://usecheck.com/" class="btn-shine ml-[0px] text-[16px] text-center" target="_blank"
+              style="font-family: 'Quicksand'">Start Learning</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- testing -->
+
+  <section class="getThere fade-up" style="position:relative ;">
+    <div>
+      <div class="mx-auto py-24">
+        <div class="relative isolate overflow-hidden px-6 pt-16 sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+          <svg viewBox="0 0 1024 1024"
+            class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
+            aria-hidden="true">
+            <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
+            <defs>
+              <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
+                <stop stop-color="#7775D6" />
+                <stop offset="1" stop-color="#E935C1" />
+              </radialGradient>
+            </defs>
+          </svg>
+          <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
+            <h2 class="text-3xl tracking-tight text-black dark:text-white sm:text-4xl"
+              style="font-family: 'archia-font'!important; font-weight: bold;">
+              <span>Boost your Learning with</span>
+              <span class="text-pink-500">Code with Atharv</span>
+            </h2>
+            <p class="mt-6 text-lg leading-8 text-gray-500 dark:text-gray-300" style="font-family:'Quicksand';">
+              We aim to provide content of Code with Harry along with my
+              personal notes.
+            </p>
+            <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start"
+              style="font-family: 'archia-font';">
+              <a href="#getHere">
+                <button
+                  class="rounded-md bg-black dark:bg-white px-3.5 py-2.5 text-sm font-bold text-gray-100 dark:text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get
+                  started <span aria-hidden="true">→</span></button>
+              </a>
+
+              <a href="#" class="text-sm font-semibold leading-6 text-white">Scroll down to learn more</a>
+            </div>
+          </div>
+          <div class="relative mt-16 h-80 lg:mt-8">
+            <img
+              class="absolute lg:left-30 lg:top-30 xl:left-[80px] xl:top-16  2xl:left-[220px] 2xl:top-[30px] 3xl:left-[520px] 2k:left-[1080px] 4k:left-[2350px] w-[59rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
+              src="assets/vs code1.png" alt="App screenshot" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="mx-auto">
+      <!-- <h1 class="text-[48px] bg-gradient-to-r from-[#FC6666] to-[#6A6AFF]  dark:from-indigo-500 dark:from-45% dark:via-purple-500 dark:to-pink-500 dark:to-60% text-center text-transparent bg-clip-text" style="font-family: 'archia-font';">What you can Learn</h1> -->
+      <h1 class="fade-up text-4xl md:text-5xl font-medium text-rose-500 dark:text-rose-400 text-center"
+        style="font-family: 'archia-font'">
+        What we <span>Teach</span>
+      </h1>
+    </div>
+    <br /><br /><br />
+    <br /><br /><br />
+    <br />
+    <div class="grid-container">
+      <div class="grid">
+        <div class="gridLayer">
+          <div class="gridBlock">
+            <!-- node js svg -->
+            <svg fetchpriority="high" class="fill-[#FF006A] dark:fill-teal-300" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+              viewBox="0 0 512 512">
+              <path
+                d="M429.76 130.07L274.33 36.85a37 37 0 00-36.65 0L82.24 130.06A38.2 38.2 0 0064 162.83V349a38.26 38.26 0 0018.24 32.8L123 406.14l.23.13c20.58 10.53 28.46 10.53 37.59 10.53 32.14 0 52.11-20.8 52.11-54.29V182a8.51 8.51 0 00-8.42-8.58h-22.38a8.51 8.51 0 00-8.42 8.58v180.51a15 15 0 01-6.85 13.07c-5.9 3.6-14.47 2.84-24.14-2.15l-39.06-23.51a1.1 1.1 0 01-.48-.92V165.46a1.32 1.32 0 01.59-1.06l151.84-93a.82.82 0 01.73 0l151.93 93a1.34 1.34 0 01.55 1.1V349a1.28 1.28 0 01-.45 1l-152.06 90.65a1.22 1.22 0 01-.8 0l-38.83-23.06a7.8 7.8 0 00-7.83-.41l-.34.2c-10.72 6.35-13.6 8-23.54 11.62-1.62.59-5.43 2-5.76 5.77s3.29 6.45 6.51 8.32l51.9 31.87a35.67 35.67 0 0018.3 5.07h.58a35.87 35.87 0 0017.83-5.07l155.43-93.13A38.37 38.37 0 00448 349V162.83a38.21 38.21 0 00-18.24-32.76z" />
+              <path
+                d="M307.88 318.05c-37.29 0-45.24-10.42-47.6-27.24a8.43 8.43 0 00-8.22-7.32h-19.8a8.44 8.44 0 00-8.26 8.58c0 14.58 5.12 62.17 83.92 62.17 24.38 0 44.66-5.7 58.63-16.49S388 311.26 388 292.55c0-37.55-24.5-47.83-72.75-54.55-49.05-6.82-49.05-10.29-49.05-17.89 0-5.47 0-18.28 35.46-18.28 25.23 0 38.74 3.19 43.06 20a8.35 8.35 0 008.06 6.67h19.87a8.24 8.24 0 006.16-2.86 8.91 8.91 0 002.12-6.44c-2.57-35.55-28.56-53.58-79.24-53.58-46.06 0-73.55 20.75-73.55 55.5 0 38.1 28.49 48.87 71.29 53.33 50 5.17 50 12.71 50 19.37.03 10.38-4.28 24.23-41.55 24.23z" />
+            </svg>
+          </div>
+        </div>
+        <!-- python svg -->
+        <div class="gridLayer">
+          <div class="gridBlock">
+            <svg fetchpriority="high" class="fill-[#38dbff] dark:fill-[#00ffff]" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+              viewBox="0 0 512 512">
+              <path
+                d="M410.66 180.72q-7.67-2.62-15.45-4.88 1.29-5.25 2.38-10.56c11.7-56.9 4.05-102.74-22.06-117.83-25-14.48-66 .61-107.36 36.69q-6.1 5.34-11.95 11-3.9-3.76-8-7.36c-43.35-38.58-86.8-54.83-112.88-39.69-25 14.51-32.43 57.6-21.9 111.53q1.58 8 3.55 15.93a320.85 320.85 0 00-17.77 5.6C48.46 198.9 16 226.73 16 255.59c0 29.82 34.84 59.72 87.77 77.85q6.44 2.19 13 4.07-2.13 8.49-3.77 17.17c-10 53-2.2 95.07 22.75 109.49 25.77 14.89 69-.41 111.14-37.31q5-4.38 10-9.25 6.32 6.11 13 11.86c40.8 35.18 81.09 49.39 106 34.93 25.75-14.94 34.12-60.14 23.25-115.13q-1.25-6.3-2.88-12.86 4.56-1.35 8.93-2.79c55-18.27 90.83-47.81 90.83-78-.02-29-33.52-57.01-85.36-74.9zm-129-81.08c35.43-30.91 68.55-43.11 83.65-34.39 16.07 9.29 22.32 46.75 12.22 95.88q-1 4.8-2.16 9.57a487.83 487.83 0 00-64.18-10.16 481.27 481.27 0 00-40.57-50.75q5.38-5.22 11.02-10.15zM157.73 280.25q6.51 12.6 13.61 24.89 7.23 12.54 15.07 24.71a435.28 435.28 0 01-44.24-7.13c4.24-13.72 9.46-27.97 15.56-42.47zm0-48.33c-6-14.19-11.08-28.15-15.25-41.63 13.7-3.07 28.3-5.58 43.52-7.48q-7.65 11.94-14.72 24.23t-13.58 24.88zm10.9 24.17q9.48-19.77 20.42-38.78 10.93-19 23.27-37.13c14.28-1.08 28.92-1.65 43.71-1.65s29.52.57 43.79 1.66q12.21 18.09 23.13 37t20.69 38.6Q334 275.63 323 294.73q-10.91 19-23 37.24c-14.25 1-29 1.55-44 1.55s-29.47-.47-43.46-1.38q-12.43-18.19-23.46-37.29t-20.48-38.76zM340.75 305q7.25-12.58 13.92-25.49a440.41 440.41 0 0116.12 42.32 434.44 434.44 0 01-44.79 7.65q7.62-12.09 14.75-24.48zm13.72-73.07q-6.64-12.65-13.81-25-7-12.18-14.59-24.06c15.31 1.94 30 4.52 43.77 7.67a439.89 439.89 0 01-15.37 41.39zm-98.24-107.45a439.75 439.75 0 0128.25 34.18q-28.35-1.35-56.74 0c9.33-12.34 18.88-23.79 28.49-34.18zM145.66 65.86c16.06-9.32 51.57 4 89 37.27 2.39 2.13 4.8 4.36 7.2 6.67A491.37 491.37 0 00201 160.51a499.12 499.12 0 00-64.06 10q-1.83-7.36-3.3-14.82c-9.05-46.23-3.06-81.08 12.02-89.83zm-23.41 251.85q-6-1.71-11.85-3.71c-23.4-8-42.73-18.44-56-29.81-11.88-10.19-17.9-20.36-17.9-28.6 0-17.51 26.06-39.85 69.52-55q8.19-2.85 16.52-5.21a493.54 493.54 0 0023.4 60.75 502.46 502.46 0 00-23.69 61.58zm111.13 93.67c-18.63 16.32-37.29 27.89-53.74 33.72-14.78 5.23-26.55 5.38-33.66 1.27-15.14-8.75-21.44-42.54-12.85-87.86q1.53-8 3.5-16a480.85 480.85 0 0064.69 9.39 501.2 501.2 0 0041.2 51c-2.98 2.93-6.03 5.75-9.14 8.48zm23.42-23.22c-9.72-10.51-19.42-22.14-28.88-34.64q13.79.54 28.08.54c9.78 0 19.46-.21 29-.64a439.33 439.33 0 01-28.2 34.74zm124.52 28.59c-2.86 15.44-8.61 25.74-15.72 29.86-15.13 8.78-47.48-2.63-82.36-32.72-4-3.44-8-7.13-12.07-11a484.54 484.54 0 0040.23-51.2 477.84 477.84 0 0065-10.05q1.47 5.94 2.6 11.64c4.81 24.3 5.5 46.28 2.32 63.47zm17.4-102.64c-2.62.87-5.32 1.71-8.06 2.53a483.26 483.26 0 00-24.31-60.94 481.52 481.52 0 0023.36-60.06c4.91 1.43 9.68 2.93 14.27 4.52 44.42 15.32 71.52 38 71.52 55.43 0 18.6-29.27 42.74-76.78 58.52z" />
+              <path d="M256 298.55a43 43 0 10-42.86-43 42.91 42.91 0 0042.86 43z" />
+            </svg>
+          </div>
+        </div>
+        <!-- c++ -->
+        <div class="gridLayer">
+          <div class="gridBlock">
+            <svg fetchpriority="high" class="fill-[#7300ff] dark:fill-[#F7A0F5]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+              <path
+                d="M 43.910156 12.003906 L 27.070313 2.539063 C 25.792969 1.824219 24.207031 1.824219 22.929688 2.539063 L 6.089844 12.003906 C 4.800781 12.726563 4 14.082031 4 15.535156 L 4 34.464844 C 4 35.917969 4.800781 37.273438 6.089844 37.996094 L 22.929688 47.460938 C 23.570313 47.820313 24.285156 48 25 48 C 25.714844 48 26.429688 47.820313 27.070313 47.460938 L 43.910156 37.996094 C 45.199219 37.273438 46 35.917969 46 34.464844 L 46 15.535156 C 46 14.082031 45.199219 12.726563 43.910156 12.003906 Z M 25 37 C 18.382813 37 13 31.617188 13 25 C 13 18.382813 18.382813 13 25 13 C 28.78125 13 32.273438 14.753906 34.542969 17.742188 L 30.160156 20.277344 C 28.84375 18.835938 26.972656 18 25 18 C 21.140625 18 18 21.140625 18 25 C 18 28.859375 21.140625 32 25 32 C 26.972656 32 28.84375 31.164063 30.160156 29.722656 L 34.542969 32.257813 C 32.273438 35.246094 28.78125 37 25 37 Z M 37 26 L 35 26 L 35 28 L 33 28 L 33 26 L 31 26 L 31 24 L 33 24 L 33 22 L 35 22 L 35 24 L 37 24 Z M 44 26 L 42 26 L 42 28 L 40 28 L 40 26 L 38 26 L 38 24 L 40 24 L 40 22 L 42 22 L 42 24 L 44 24 Z" />
+            </svg>
+          </div>
+        </div>
+        <div class="gridLayer centerPiece">
+          <div class="gridBlock centerBlock">
+            <svg class="fill-rose-400 dark:fill-rose-500" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+              viewBox="0 0 512 512">
+              <path
+                d="M314 36.38c-18.59-3.06-45.8-4.47-64.27-4.38a311.09 311.09 0 00-51.66 4.38c-45.74 8-54.07 24.7-54.07 55.54V128h112v16H107.62C66.06 144 32.33 193.67 32 255.12v.88a162.91 162.91 0 003.13 32c9.29 46.28 38.23 80 72.49 80H128v-54c0-31.3 20.84-59.95 55-66.1l9.87-1.23H314a56.05 56.05 0 0015.06-2A52.48 52.48 0 00368 193.68V91.92c0-28.92-24.68-50.73-54-55.54zM194.93 105.5a20.37 20.37 0 1120.3-20.3 20.29 20.29 0 01-20.3 20.3z" />
+              <path
+                d="M475.28 217c-10.7-42.61-38.41-73-70.9-73h-17.71v47.45c0 39.57-26 68.22-57.74 73.13a63.54 63.54 0 01-9.69.75H198.08a60 60 0 00-15.23 1.95C160.54 273.14 144 291.7 144 315.77v101.77c0 29 29.14 46 57.73 54.31 34.21 9.95 71.48 11.75 112.42 0 27.19-7.77 53.85-23.48 53.85-54.31V384H256v-16h148.38c29.44 0 54.95-24.93 67.45-61.31A156.83 156.83 0 00480 256a160.64 160.64 0 00-4.72-39zM316.51 404a20.37 20.37 0 11-20.3 20.3 20.29 20.29 0 0120.3-20.3z" />
+            </svg>
+          </div>
+        </div>
+        <div class="gridLayer">
+          <div class="gridBlock">
+            <svg fetchpriority="high" class="fill-[#30D33B] dark:fill-[#6666FF]" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+              viewBox="0 0 512 512">
+              <path
+                d="M64 32l34.94 403.21L255.77 480 413 435.15 448 32zm308 132H188l4 51h176l-13.51 151.39L256 394.48l-98.68-28-6.78-77.48h48.26l3.42 39.29L256 343.07l53.42-14.92L315 264H148l-12.59-149.59H376.2z" />
+            </svg>
+          </div>
+        </div>
+        <div class="gridLayer">
+          <div class="gridBlock">
+            <svg fetchpriority="high" class="fill-[#37D671] dark:fill-[#8aff62]" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+              viewBox="0 0 512 512">
+              <path
+                d="M380.91 199l42.47-73.57a8.63 8.63 0 00-3.12-11.76 8.52 8.52 0 00-11.71 3.12l-43 74.52c-32.83-15-69.78-23.35-109.52-23.35s-76.69 8.36-109.52 23.35l-43-74.52a8.6 8.6 0 10-14.88 8.64L131 199C57.8 238.64 8.19 312.77 0 399.55h512c-8.19-86.78-57.8-160.91-131.09-200.55zM138.45 327.65a21.46 21.46 0 1121.46-21.46 21.47 21.47 0 01-21.46 21.46zm235 0A21.46 21.46 0 11395 306.19a21.47 21.47 0 01-21.51 21.46z" />
+            </svg>
+          </div>
+        </div>
+        <div class="gridLayer">
+          <div class="gridBlock">
+            <!-- wifi logo -->
+            <svg fetchpriority="high" class="fill-[#ff7272]" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+              <path
+                d="M346.65 304.3a136 136 0 00-180.71 0 21 21 0 1027.91 31.38 94 94 0 01124.89 0 21 21 0 0027.91-31.4z" />
+              <path
+                d="M256.28 183.7a221.47 221.47 0 00-151.8 59.92 21 21 0 1028.68 30.67 180.28 180.28 0 01246.24 0 21 21 0 1028.68-30.67 221.47 221.47 0 00-151.8-59.92z" />
+              <path d="M462 175.86a309 309 0 00-411.44 0 21 21 0 1028 31.29 267 267 0 01355.43 0 21 21 0 0028-31.31z" />
+              <circle cx="256.28" cy="393.41" r="32" />
+            </svg>
+          </div>
+        </div>
+        <!-- terminal logo -->
+        <div class="gridLayer">
+          <div class="gridBlock">
+            <svg fetchpriority="high" class="fill-indigo-600 dark:fill-[#00ffaf]" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+              viewBox="0 0 512 512">
+              <path
+                d="M432 32H80a64.07 64.07 0 00-64 64v320a64.07 64.07 0 0064 64h352a64.07 64.07 0 0064-64V96a64.07 64.07 0 00-64-64zM96 256a16 16 0 01-10-28.49L150.39 176 86 124.49a16 16 0 1120-25l80 64a16 16 0 010 25l-80 64A16 16 0 0196 256zm160 0h-64a16 16 0 010-32h64a16 16 0 010 32z" />
+            </svg>
+          </div>
+        </div>
+        <div class="gridLayer">
+          <div class="gridBlock">
+            <!-- next js logo -->
+            <svg fetchpriority="high" class="fill-black dark:fill-white" preserveAspectRatio="xMidYMid" viewBox="0 0 512 308.883"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m120.81 80.561h96.568v7.676h-87.716v57.767h82.486v7.675h-82.486v63.423h88.722v7.675h-97.574zm105.22 0h10.26l45.467 63.423 46.473-63.424 63.211-80.56-103.85 150.65 53.515 74.127h-10.663l-48.686-67.462-48.888 67.462h-10.461l53.917-74.128zm118.898 7.676v-7.677h110.048v7.676h-50.699v136.54h-8.852v-136.539zm-344.928-7.677h11.065l152.58 228.323-63.053-84.107-91.338-133.308-.402 133.31h-8.852zm454.084 134.224c-1.809 0-3.165-1.4-3.165-3.212 0-1.81 1.356-3.212 3.165-3.212 1.83 0 3.165 1.401 3.165 3.212s-1.335 3.212-3.165 3.212zm8.698-8.45h4.737c.064 2.565 1.937 4.29 4.693 4.29 3.079 0 4.823-1.854 4.823-5.325v-21.99h4.823v22.011c0 6.252-3.617 9.853-9.603 9.853-5.62 0-9.473-3.493-9.473-8.84zm25.384-.28h4.78c.409 2.953 3.294 4.828 7.45 4.828 3.875 0 6.717-2.005 6.717-4.764 0-2.371-1.809-3.794-5.921-4.764l-4.005-.97c-5.62-1.316-8.181-4.032-8.181-8.602 0-5.54 4.521-9.227 11.303-9.227 6.308 0 10.916 3.686 11.196 8.925h-4.694c-.452-2.867-2.95-4.657-6.567-4.657-3.81 0-6.35 1.833-6.35 4.635 0 2.22 1.635 3.493 5.683 4.441l3.423.841c6.373 1.488 9 4.075 9 8.753 0 5.95-4.607 9.68-11.97 9.68-6.89 0-11.52-3.558-11.864-9.12z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ready for launch -->
+
+  <section class="mt-[-650px] md:mt-7 lg:mt-[-200px] xl:mt-[-100px] 2xl:mt-[120px] 3xl:mt-[220px] 2k:mt-[600px]">
+    <h1 class="text-black dark:text-white text-[48px] text-center" style="font-family: 'archia-font'">
+      <span class="text-black dark:text-white">Learning, </span><span
+        class="text-indigo-500 dark:text-[#09ff15]">Levelled Up</span>
+    </h1>
+    <p class="text-black dark:text-white text-center m-5 text-xl" style="font-family: 'Varela Round'">
+      Learn with more
+      <span class="text-indigo-600 dark:text-[#00ffff]" style="font-weight: bold">Efficiently and Focus</span>, Courses
+      Designed with
+      <span class="text-indigo-600 dark:text-[#00ffff]" style="font-weight: bold">Begginners</span>
+      in Mind
+    </p>
+
+    <div class="wrapper">
+      <div class="card">
+        <div class="poster"><img src="assets/code-with-harry.png" alt="code-with-harry insta image"></div>
+        <div class="details">
+          <h1 style="font-family: 'Varela Round' !important;">Learn from the Best Teacher</h1>
+          <h2 style="font-family: 'Varela Round' !important;">Digital Creator • IIT Kharagpur • CSE</h2>
+          <p class="desc" style="font-family: 'Quicksand' !important;">
+            Code with Harry, is a passionate youtuber, who teaches various langauges for free, I learnt web development
+            through his courses.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="poster"><img src="assets/pdf-notes.png" alt="pdf notes"></div>
+        <div class="details">
+          <h1 style="font-family: 'Varela Round' !important;">Detailed Pdf Notes</h1>
+          <h2 style="font-family: 'Varela Round' !important;">Detailed • Easy to Revise</h2>
+          <p class="desc" style="font-family: 'Quicksand' !important;">
+            Detailed Programming notes after each video lesson. These notes are designed by me after carefully learning
+            from video lectures
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="poster"><img src="assets/dollar-bg.avif" alt="Location Unknown"></div>
+        <div class="details">
+          <h1 style="font-family: 'Varela Round' !important;">Free of Cost</h1>
+          <h2 style="font-family: 'Varela Round' !important;">Free</h2>
+          <p class="desc" style="font-family: 'Quicksand' !important;">
+            Notes and lectures will be free of cost, as I aim to contribute to Code with Harry aim to make learning
+            programming for free
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section>
+    <h1 class="text-center text-[30px] md:text-[42px] text-black dark:text-white"
+      style="font-family: archia-font; font-weight: 300;">
+      Ready for take-off?
+    </h1>
+    <h3 class="mt-5 md:mt-2 text-center text-[15px] md:text-[18px] text-gray-400" style="font-family: 'Varela Round';">
+      Click the button below to start your <span class="text-indigo-500 dark:text-[#00ffff]"
+        style="font-family: 'Varela Round'; font-weight: bold;">Programming Journey</span></h3>
+    <br>
+    <div class="flex flex-col justify-center overflow-hidden py-6">
+      <div class="max-w-7xl mx-auto">
+        <a href="https://www.youtube.com/@CodeWithHarry" target="_blank">
+          <div class="relative group" style="cursor:pointer;">
+            <div
+              class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 dark:opacity-50 group-hover:opacity-100 transition duration-500 group-hover:duration-600"
+              style="cursor:pointer;"></div>
+            <div
+              class="relative px-7 py-6 bg-white ring-2 ring-gray-900/5 dark:ring-gray-400/20  rounded-lg leading-none flex items-top justify-start space-x-6 border-slate-500/20"
+              style="
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 18px;
+            padding-bottom: 18px;
+        " style="cursor:pointer;">
+              <!-- <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.75 6.75C6.75 5.64543 7.64543 4.75 8.75 4.75H15.25C16.3546 4.75 17.25 5.64543 17.25 6.75V19.25L12 14.75L6.75 19.25V6.75Z"></path> -->
+              </svg>
+              <div>
+                <p class="text-slate-800 items-center justify-center group-hover:text-[#ff0062] transition group-hover:font-semibold group-hover:duration-600 duration-500"
+                  style="font-family: 'varela round'; cursor: pointer;">Visit Youtube Channel</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <p class="text-center text-gray-400 text-[20px]">or</p>
+    <div class="flex flex-col justify-center overflow-hidden py-6">
+      <div class="max-w-7xl mx-auto">
+        <a href="html/python-lec/python-lec.html">
+          <div class="relative group" style="cursor:pointer;">
+            <div
+              class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 dark:opacity-50 group-hover:opacity-100 transition duration-500 group-hover:duration-600"
+              style="cursor:pointer;"></div>
+            <div
+              class="relative px-7 py-6 bg-black ring-2 ring-gray-900/5 dark:ring-gray-400/20  rounded-lg leading-none flex items-top justify-start space-x-6 border-slate-500/20"
+              style="
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 18px;
+            padding-bottom: 18px;
+        " style="cursor:pointer;">
+              <!-- <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.75 6.75C6.75 5.64543 7.64543 4.75 8.75 4.75H15.25C16.3546 4.75 17.25 5.64543 17.25 6.75V19.25L12 14.75L6.75 19.25V6.75Z"></path> -->
+              </svg>
+              <div>
+                <p class="text-gray-300 items-center justify-center group-hover:text-[#00ffff] transition group-hover:font-semibold group-hover:duration-600 duration-500"
+                  style="font-family: 'varela round'; cursor: pointer;" id="getHere">Go To Python Courses</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/Flip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/Observer.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollToPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/Draggable.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/EaselPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/MotionPathPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/PixiPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/TextPlugin.min.js"></script>
+  <script src="dist/index.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

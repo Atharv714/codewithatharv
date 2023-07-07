@@ -1,0 +1,27 @@
+nav {
+    font-family: 'quicksand';
+    font-weight: bold;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    position: fixed;
+  }
+
+.undnav
+{
+    transition: 500ms;
+}
+
+.undnav:hover
+{
+    text-decoration: underline;
+    transition: 500ms;
+}
+
+nav{
+    z-index: 100;
+  }
+
+#more {display: none;}
+
+
